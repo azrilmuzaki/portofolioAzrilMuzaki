@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #1e1e2f;
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    color: #ffd700;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background: #2c2c3e;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #444;
+    text-align: center;
+}
+
+a {
+    color: #00bfff;
+    text-decoration: none;
+}
+
+.btn, .btn-edit, .btn-hapus {
+    padding: 5px 10px;
+    margin: 5px;
+    border: none;
+    background: #00bfff;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.btn-hapus {
+    background: #ff4d4d;
+}
+
+.btn-edit {
+    background: #ffa500;
+}
+
+form {
+    max-width: 400px;
+    background: #2c2c3e;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    background: #444;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #00bfff;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.success {
+    color: #00ff7f;
+}
+
+.error {
+    color: #ff4d4d;
+}
